@@ -3,7 +3,7 @@
 ### Run below commands for first time after cloning the repo
 
 ```
-bundle install
+bundle install --path=vendor/bundle
 bundle exec rails webpacker:install 
 yarn install --check-files
 ```
