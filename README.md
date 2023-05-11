@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rbenv local 2.7.4
+# rbenv exec gem install bundler
+rbenv rehash
+bundle init
+# Add gem 'rails', '~>6' to Gemfile 
+bundle install --path=vendor/bundle
+bundle exec rails new . --skip-bundle
+bundle install
+bundle exec rails webpacker:install 
+yarn install --check-files
+```
