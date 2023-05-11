@@ -1,5 +1,16 @@
 # README
 
+### Run below commands for first time after cloning the repo
+
+```
+bundle install
+bundle exec rails webpacker:install 
+yarn install --check-files
+```
+
+
+### Generate new app
+
 ```
 rbenv local 2.7.4
 # rbenv exec gem install bundler
